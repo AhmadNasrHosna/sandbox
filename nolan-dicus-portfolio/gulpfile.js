@@ -38,7 +38,7 @@ const { src, dest, task, watch, series, parallel } = require("gulp"),
         del                       = require("del"),
     
         // Project related variables
-        styleSRC                  = './app/assets/styles/main.css',
+        styleSRC                  = './app/assets/styles/App.css',
         styleURL                  = './app/temp/styles',
     
         htmlSRC                   = './app/index.pug',

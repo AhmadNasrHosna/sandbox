@@ -1,0 +1,72 @@
+.primary-nav {
+  display: none;
+}
+
+.nav-trigger {
+  display: inline-block;
+  border: none;
+  margin: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  transition: box-shadow 300ms ease;
+
+  position: absolute;
+  top: 35px;
+  right: 40px;
+  height: 5.2rem;
+  width: 5.2rem;
+  border-radius: 50%;
+  z-index: 9;
+  background: hsla(0, 0%, 0%, .8);
+  overflow: hidden;
+
+  &__icon {
+    display: block;
+    width: 1.8rem;
+    height: 2px;
+    background: var(--color-3);
+    border-radius: 2px;
+    position: relative;
+    transition: transform 300ms ease;
+    @mixin center xy;
+
+    &::before, &::after {
+      @mixin pseudo;
+      background: inherit;
+      width: inherit;
+      height: inherit;
+      border-radius: inherit;
+      transition: inherit;
+    }
+
+    &::before {
+      top: -6px;
+    }
+
+    &::after {
+      bottom: -6px;
+    }
+  }
+
+  &:hover {
+    .nav-trigger__icon {
+      transform: translate(-50%, -50%) rotate(-90deg);
+
+      &::before {
+        transform: translate(-5px, 3px) rotate(-45deg) scaleX(.5);
+      }
+
+      &::after {
+        transform: translate(-5px, -3px) rotate(45deg) scaleX(.5);
+      }
+
+    }
+  }
+
+}
+
+.nav-trigger:focus {
+  box-shadow: 0 0 0 6px hsla(0, 0%, 0%, 0.12);
+  outline: none;
+}

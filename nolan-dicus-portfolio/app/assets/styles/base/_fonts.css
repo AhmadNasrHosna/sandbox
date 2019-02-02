@@ -1,0 +1,240 @@
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../assets/fonts/manrope/Manrope-Bold.eot');
+  src: url('../../../assets/fonts/manrope/Manrope-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../../../assets/fonts/manrope/Manrope-Bold.ttf') format('truetype'),
+      url('../../../assets/fonts/manrope/Manrope-Bold.svg#Manrope-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../assets/fonts/manrope/Manrope-Medium.eot');
+  src: url('../../../assets/fonts/manrope/Manrope-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../../../assets/fonts/manrope/Manrope-Medium.ttf') format('truetype'),
+      url('../../../assets/fonts/manrope/Manrope-Medium.svg#Manrope-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../assets/fonts/manrope/Manrope-Semibold.eot');
+  src: url('../../../assets/fonts/manrope/Manrope-Semibold.eot?#iefix') format('embedded-opentype'),
+      url('../../../assets/fonts/manrope/Manrope-Semibold.ttf') format('truetype'),
+      url('../../../assets/fonts/manrope/Manrope-Semibold.svg#Manrope-Semibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../assets/fonts/manrope/Manrope-Thin.eot');
+  src: url('../../../assets/fonts/manrope/Manrope-Thin.eot?#iefix') format('embedded-opentype'),
+      url('../../../assets/fonts/manrope/Manrope-Thin.ttf') format('truetype'),
+      url('../../../assets/fonts/manrope/Manrope-Thin.svg#Manrope-Thin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../assets/fonts/manrope/Manrope-Regular.eot');
+  src: url('../../../assets/fonts/manrope/Manrope-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../../../assets/fonts/manrope/Manrope-Regular.ttf') format('truetype'),
+      url('../../../assets/fonts/manrope/Manrope-Regular.svg#Manrope-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../assets/fonts/manrope/Manrope-Light.eot');
+  src: url('../../../assets/fonts/manrope/Manrope-Light.eot?#iefix') format('embedded-opentype'),
+      url('../../../assets/fonts/manrope/Manrope-Light.ttf') format('truetype'),
+      url('../../../assets/fonts/manrope/Manrope-Light.svg#Manrope-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../assets/fonts/manrope/Manrope-Light_1.eot');
+  src: url('../../../assets/fonts/manrope/Manrope-Light_1.eot?#iefix') format('embedded-opentype'),
+      url('../../../assets/fonts/manrope/Manrope-Light_1.ttf') format('truetype'),
+      url('../../../assets/fonts/manrope/Manrope-Light_1.svg#Manrope-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../assets/fonts/manrope/Manrope-Regular_1.eot');
+  src: url('../../../assets/fonts/manrope/Manrope-Regular_1.eot?#iefix') format('embedded-opentype'),
+      url('../../../assets/fonts/manrope/Manrope-Regular_1.ttf') format('truetype'),
+      url('../../../assets/fonts/manrope/Manrope-Regular_1.svg#Manrope-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../assets/fonts/manrope/Manrope-Semibold_1.eot');
+  src: url('../../../assets/fonts/manrope/Manrope-Semibold_1.eot?#iefix') format('embedded-opentype'),
+      url('../../../assets/fonts/manrope/Manrope-Semibold_1.ttf') format('truetype'),
+      url('../../../assets/fonts/manrope/Manrope-Semibold_1.svg#Manrope-Semibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../assets/fonts/manrope/Manrope-Medium_1.eot');
+  src: url('../../../assets/fonts/manrope/Manrope-Medium_1.eot?#iefix') format('embedded-opentype'),
+      url('../../../assets/fonts/manrope/Manrope-Medium_1.ttf') format('truetype'),
+      url('../../../assets/fonts/manrope/Manrope-Medium_1.svg#Manrope-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../assets/fonts/manrope/Manrope-Bold_1.eot');
+  src: url('../../../assets/fonts/manrope/Manrope-Bold_1.eot?#iefix') format('embedded-opentype'),
+      url('../../../assets/fonts/manrope/Manrope-Bold_1.ttf') format('truetype'),
+      url('../../../assets/fonts/manrope/Manrope-Bold_1.svg#Manrope-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../assets/fonts/manrope/Manrope-Thin_1.eot');
+  src: url('../../../assets/fonts/manrope/Manrope-Thin_1.eot?#iefix') format('embedded-opentype'),
+      url('../../../assets/fonts/manrope/Manrope-Thin_1.ttf') format('truetype'),
+      url('../../../assets/fonts/manrope/Manrope-Thin_1.svg#Manrope-Thin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../assets/fonts/manrope/Manrope-Light_2.eot');
+  src: url('../../../assets/fonts/manrope/Manrope-Light_2.eot?#iefix') format('embedded-opentype'),
+      url('../../../assets/fonts/manrope/Manrope-Light_2.ttf') format('truetype'),
+      url('../../../assets/fonts/manrope/Manrope-Light_2.svg#Manrope-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../assets/fonts/manrope/Manrope-Semibold_2.eot');
+  src: url('../../../assets/fonts/manrope/Manrope-Semibold_2.eot?#iefix') format('embedded-opentype'),
+      url('../../../assets/fonts/manrope/Manrope-Semibold_2.ttf') format('truetype'),
+      url('../../../assets/fonts/manrope/Manrope-Semibold_2.svg#Manrope-Semibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../assets/fonts/manrope/Manrope-Thin_2.eot');
+  src: url('../../../assets/fonts/manrope/Manrope-Thin_2.eot?#iefix') format('embedded-opentype'),
+      url('../../../assets/fonts/manrope/Manrope-Thin_2.ttf') format('truetype'),
+      url('../../../assets/fonts/manrope/Manrope-Thin_2.svg#Manrope-Thin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../assets/fonts/manrope/Manrope-Bold_2.eot');
+  src: url('../../../assets/fonts/manrope/Manrope-Bold_2.eot?#iefix') format('embedded-opentype'),
+      url('../../../assets/fonts/manrope/Manrope-Bold_2.ttf') format('truetype'),
+      url('../../../assets/fonts/manrope/Manrope-Bold_2.svg#Manrope-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../assets/fonts/manrope/Manrope-Regular_2.eot');
+  src: url('../../../assets/fonts/manrope/Manrope-Regular_2.eot?#iefix') format('embedded-opentype'),
+      url('../../../assets/fonts/manrope/Manrope-Regular_2.ttf') format('truetype'),
+      url('../../../assets/fonts/manrope/Manrope-Regular_2.svg#Manrope-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../assets/fonts/manrope/Manrope-Medium_2.eot');
+  src: url('../../../assets/fonts/manrope/Manrope-Medium_2.eot?#iefix') format('embedded-opentype'),
+      url('../../../assets/fonts/manrope/Manrope-Medium_2.ttf') format('truetype'),
+      url('../../../assets/fonts/manrope/Manrope-Medium_2.svg#Manrope-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-Bold.eot');
+  src: url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-Bold.woff2') format('woff2'),
+      url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-Bold.woff') format('woff'),
+      url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-Bold.ttf') format('truetype'),
+      url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-Bold.svg#SpaceGrotesk-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-Light.eot');
+  src: url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-Light.eot?#iefix') format('embedded-opentype'),
+      url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-Light.woff2') format('woff2'),
+      url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-Light.woff') format('woff'),
+      url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-Light.ttf') format('truetype'),
+      url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-Light.svg#SpaceGrotesk-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-Regular.eot');
+  src: url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-Regular.woff2') format('woff2'),
+      url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-Regular.woff') format('woff'),
+      url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-Regular.ttf') format('truetype'),
+      url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-Regular.svg#SpaceGrotesk-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-SemiBold.eot');
+  src: url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-SemiBold.woff2') format('woff2'),
+      url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-SemiBold.woff') format('woff'),
+      url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-SemiBold.ttf') format('truetype'),
+      url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-SemiBold.svg#SpaceGrotesk-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-Medium.eot');
+  src: url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-Medium.woff2') format('woff2'),
+      url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-Medium.woff') format('woff'),
+      url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-Medium.ttf') format('truetype'),
+      url('../../../assets/fonts/spacegrotesk/SpaceGrotesk-Medium.svg#SpaceGrotesk-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}

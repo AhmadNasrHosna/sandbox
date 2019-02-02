@@ -1,11 +1,34 @@
+
 <!DOCTYPE html>
 html(lang="en")
-    head
-        meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i|Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Libre+Franklin:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i|Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i")
-        link(rel="stylesheet", href="temp/styles/main.css")
-        title Nolan Dicus Portfolio
-    body
-    h1 hello
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i|Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Libre+Franklin:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i|Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i")
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i")
+
+    link(rel="stylesheet", href="temp/styles/App.css")
+    title Nolan Dicus Portfolio
+
+  body
+
+    button.nav-trigger
+      span.screen-reader-text Open Navigation 
+      span(class="nav-trigger__icon", aria-hidden="true")
+
+    .projects-container
+      //- Preview Images
+      block projects-previews
+        include includes/components/projects-previews
+
+      //- Projects Details
+      block projects-contents
+        include includes/components/projects-contents
+
+    button(class="scroll text-replace") Scroll
+
+      //- The main navbar
+    block primary-nav
+      include includes/components/primary-nav
+

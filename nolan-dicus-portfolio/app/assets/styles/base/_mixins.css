@@ -1,72 +1,105 @@
 /* Media */
 @define-mixin atSmall {
-    @media (min-width: 530px) {
-        @mixin-content;
-    }
+  @media (min-width: 530px) {
+    @mixin-content;
+  }
 }
 
 @define-mixin atMedium {
-    @media (min-width: 800px) {
-        @mixin-content;
-    }
+  @media (min-width: 800px) {
+    @mixin-content;
+  }
 }
 
 @define-mixin atLarge {
-    @media (min-width: 1010px) {
-        @mixin-content;
-    }
+  @media (min-width: 1010px) {
+    @mixin-content;
+  }
 }
 
 /* Pseudo Start Point */
-@define-mixin pseudo $display: block, $pos: absolute, $content: '' {
-    content: $content;
-    display: $display;
-    position: $pos;
+@define-mixin pseudo $display: block,
+$pos: absolute,
+$content: '' {
+  content: $content;
+  display: $display;
+  position: $pos;
 }
 
 /* Truncated lines */
 @define-mixin truncate $truncation-boundary {
-    max-width: $truncation-boundary;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  max-width: $truncation-boundary;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* rem-fallback */
 @define-mixin font-size $value: 1.6 {
-    font-size: calc($(value) * 10px);
-    font-size: $(value)rem;
+  font-size: calc($(value) * 10px);
+  font-size: $(value)rem;
 }
+
 @define-mixin line-height $value {
-    line-height: calc($(value) * 10px);
-    line-height: $(value)rem;
+  line-height: calc($(value) * 10px);
+  line-height: $(value)rem;
 }
+
 @define-mixin letter-spacing $value {
-    letter-spacing: calc($(value) * 10px);
-    letter-spacing: $(value)rem;
+  letter-spacing: calc($(value) * 10px);
+  letter-spacing: $(value)rem;
 }
+
 @define-mixin max-width $value {
-    max-width: calc($(value) * 10px);
-    max-width: $(value)rem;
+  max-width: calc($(value) * 10px);
+  max-width: $(value)rem;
 }
 
 /* CLEARFIX */
 @define-mixin clearfix {
-    &::after {
-        content: "";
-        clear: both;
-        display: table;
-    }
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 }
 
 
 /* Remove li Bullets with zero-width space  */
 
 @define-mixin remove-bullets {
-    li {
-        list-style-type: none; /* remove bullets */
-        &::before {
-            content: "\200B"; /* add zero-width space */
-        }
+  li {
+    list-style-type: none;
+
+    /* remove bullets */
+    &::before {
+      content: "\200B";
+      /* add zero-width space */
     }
+  }
+}
+
+/* Center vertically and/or horizontally an absolute positioned element */
+
+
+@define-mixin center $axis: xy {
+
+  @if $axis == xy {
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    transform: translate(-50%,-50%);
+  }
+  @else if $axis == x{
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+  }
+  @else $axis == y {
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+  }
+  
 }
